@@ -1,0 +1,8 @@
+<div class='list-of-lists collection'>
+  {{#each model as |list|}}
+  {{#link-to 'list.show' list class='list-item collection-item'}}
+    {{list.name }}
+  {{/link-to}}
+
+  {{/each}}
+</div>
